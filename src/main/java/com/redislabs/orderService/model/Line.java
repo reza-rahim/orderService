@@ -1,6 +1,6 @@
 package com.redislabs.orderService.model;
 
-public class Cart {
+public class Line {
 	String user = "";
 	String orderNumber ="";
 	String cart = "";
@@ -10,12 +10,12 @@ public class Cart {
 	float price =0.0F;
 	
 	
-	public Cart() {
+	public Line() {
 		
 		
 	}
 	
-    public Cart(String user, String orderNumber, String cart, String id, 
+    public Line(String user, String orderNumber, String cart, String id,
     		String title, String qty, float price) {
 		this.user = user;
 		this.orderNumber = orderNumber;
