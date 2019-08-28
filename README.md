@@ -27,3 +27,7 @@ http://localhost:8080/createOrders
   ]
 }
 ```
+
+```bash
+http://localhost:8080/getOrders/reza@redislabs.com
+```
